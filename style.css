@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Scope One', serif;
+}
+
+/* ---------------Navigation bar-----------------*/
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    background: #21252969;
+    border-radius: 3px;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+.logo-container{
+    font-family: 'Marcellus SC', serif;
+    display: flex;
+    margin-left: 100px;
+    color: wheat;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    transform: rotate(-5deg);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.068);
+    letter-spacing: 3px;
+}
+
+.unordered{
+    list-style: none; 
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+li a{
+    color:white;
+    text-decoration: none;
+    align-content: center;
+    font-size: 18px;
+    padding: 25px 20px;
+    font-weight: 500;
+}
+li{
+    justify-items: center;
+    justify-items: flex-end;
+    margin-right: 40px;
+}
+.image-and-all{
+    background-image:linear-gradient(rgba(0, 0, 2, 0.205), rgba(0, 0, 0, 0.73)), url('images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+li :hover{
+    background-color: rgba(0, 0, 0, 0.596);
+    color: white;
+    border-radius: 3px;
+    transition: ease-in-out 1s;
+}
+
+/* --------------- TEXT AND BUTTON ------------------*/
+.all-text{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+}
+.this{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 60px;
+}
+
+.this-h3{
+    color: white;
+    line-height: 2em;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+.learn{
+    border: none;
+    padding: 15px;
+    font-family: scope one;
+    background-color: #3498db;
+    border-radius:6px ;
+    font-weight: 700;
+    cursor: pointer;
+    color:#fff;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.learn :hover{
+    color: #2c0808;
+}
+
+/* --------------- BODY ------------------*/
+.body1{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 50px 0;
+}
+.body-img img{
+    border: 1px solid black;
+    border-radius: 220px;
+}
+.body-text{
+    margin-left: 50px;
+    width: 70%;
+    line-height: 1.8em;
+}
+
+.body-text h4{
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 3em;
+}
+
+.body-text .body-button button{
+    padding : 10px 20px;  
+    background-color: #3498db;   
+    border: none;
+    color: white;
+    font-size: 20px;  
+    font-family: scope-one;
+    border-radius: 10px;
+}
+.body-text .body-button{
+    margin-top: 30px;
+}
+
+/* --------------- BODY 2 ------------------*/
+
+.body2{
+    background-color: #3498db;
+}
+.body1.body2{
+    color: white;
+    width: 70%;
+    padding:20px 0;
+}
+.body-img.body2{
+    border: 1px solid white;
+    border-radius: 220px;
+    margin-left: 100px;
+}
+.body-text.body2{
+    margin-left: 0;
+    width: 90%;
+}
+.body-button.body2 button{
+    background-color:white ;
+    color: #343434;
+}
